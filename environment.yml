@@ -1,0 +1,9 @@
+name: pbc-notebook
+channels:
+  - defaults
+dependencies:
+  - python=3.11
+  - pip
+  - pip:
+      - qiskit==1.3.0
+      - jupyter==1.1.1
