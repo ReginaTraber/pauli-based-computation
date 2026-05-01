@@ -6,3 +6,6 @@
 
 # OS
 Thumbs.db
+
+# Prettier
+.prettierrc
