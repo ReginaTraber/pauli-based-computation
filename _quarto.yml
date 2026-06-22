@@ -1,0 +1,31 @@
+project:
+  type: website
+  output-dir: _site
+  render:
+    - index.qmd
+    - notebook.ipynb
+
+website:
+  title: "Pauli-Based Computation"
+  repo-url: https://github.com/ReginaTraber/pauli-based-computation
+  page-navigation: true
+  navbar:
+    right:
+      - icon: github
+        href: https://github.com/ReginaTraber/pauli-based-computation
+      - text: "Launch on Binder"
+        href: https://mybinder.org/v2/gh/ReginaTraber/pauli-based-computation/main?labpath=notebook.ipynb
+
+format:
+  html:
+    theme: cosmo
+    toc: true
+    toc-depth: 3
+    toc-title: "Content"
+    html-math-method: mathjax
+
+# Use the outputs already saved in the notebook
+# Run + save the notebook locally first before pushing
+# so CI does not need qiskit installed. 
+execute:
+  enabled: false

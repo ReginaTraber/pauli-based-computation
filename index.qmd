@@ -1,0 +1,10 @@
+---
+title: "Pauli-Based Computation"
+---
+
+An educational notebook on Pauli-Based Computation.
+
+📖 **Read the notebook:** [open it here](notebook.ipynb)
+
+▶️ **Run it live:** [![Launch on Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ReginaTraber/pauli-based-computation/main?labpath=notebook.ipynb)
+(opens JupyterLab in the browser, no login needed)

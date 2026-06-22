@@ -7,5 +7,13 @@
 # OS
 Thumbs.db
 
-# Prettier
-.prettierrc
+# Python
+__pycache__/
+.pytest_cache/
+
+# Quarto
+/_site/
+/.quarto/
+**/*.quarto_ipynb
+
+scripts/make_figures.py
