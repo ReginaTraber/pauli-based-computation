@@ -1,7 +1,7 @@
 # Pauli-Based Computation
 
 
-📖 **Read online:** https://reginatraber.github.io/pauli-based-computation/
+📖 **Read online:** https://reginatraber.github.io/pauli-based-computation/notebook.html
 
 ▶️ **Run it live:** [![Launch on Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ReginaTraber/pauli-based-computation/main?labpath=notebook.ipynb)
 &nbsp; (opens JupyterLab in the browser, built from `environment.yml`, with no login)

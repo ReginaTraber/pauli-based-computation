@@ -13,6 +13,9 @@ def to_qiskit(circuit, n):
 
 
 def draw_circuit(circuit, n, scale=1.2, **kw):
+    kw.setdefault(
+        "style", {"displaycolor": {"t": ["gold", "black"], "tdg": ["gold", "black"]}}
+    )
     return to_qiskit(circuit, n).draw("mpl", scale=scale, **kw)
 
 
